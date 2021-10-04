@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <!--Phân đầu -->
+    <head>   
+        <title>Using Paragraphs</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <marquee direction = right scrollamount= 10  scrolldelay=100 ><h1 style="font-size: 50px ; color: blue;" >  Xin chào các bạn</h1></marquee></body><br>
+        <form action="" post="GET"><!--post la k cho thay lu lieu nhap,get la hien thi-->
+            <table>
+            <h1 style="margin-left:60px">FORM ĐĂNG KÝ</h1>
+            <tr>
+           <td style="text-align: right; ">HO VA TEN</td> 
+           <td><input type="text" placeholder="nhap du lieu" name="txtFullNamw"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right; ">tuổi</td>
+                <td width= 10 ><input type="number" min="1" max="100" > </td>
+            </tr>
+            <tr>
+                <td style=" text-align: right ;"> mã sv </td>
+                <td><input type="text" placeholder="nhap du lieu" name="txtFullNamw"></td>
+            </tr>
+            <tr>
+                <td style=" text-align: right ;"> lớp </td>
+                <td><input type="text" placeholder="nhap du lieu" name="txtFullNamw"></td>
+            </tr> 
+            <tr>
+                <td style=" text-align: right ;"> giới tính</td>
+               <td width=5> <input  name = "1"type="radio" value="nam" > nam   <input  name = "1"type="radio" value="nữ" > nữ  <input  name = "1"type="radio" value="khác" > khác </td>
+            </tr> 
+            <tr>
+                <td style=" text-align: right ;"> ngày sinh </td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right; "> Địa chỉ </td> 
+                <td><textarea cols="50" rows="4"></textarea> </td>
+                 </tr>
+                <tr>
+                    <td style="text-align: right; ">quê quán</td> 
+                    <td><input list="browsers" name="browser">
+                        <datalist id="browsers">
+                        <option value="hà nội"> hà nội
+                        <option value="thái bình"> thái bình
+                        <option value="hải phòng"> hải phòng
+                        <option value="nam định"> nam định
+                        <option value="lạng sơn"> lạng sơn
+                        </datalist> </td>
+                </tr>
+             <tr>
+                <td style="text-align: right; ">nơi đã đi</td> 
+               <td>
+                   <select multiple >
+                   <option value="hà nội"> hà nội
+                   <option value="thái bình"> thái bình
+                   <option value="hải phòng"> hải phòng
+                   <option value="nam định"> nam định
+                   <option value="lạng sơn"> lạng sơn
+                   </select> 
+                </td>
+            </tr>
+             <tr>
+                  <td style="text-align: right; ">email</td> 
+                <td><input  type="email" required></td>
+                   </tr>
+                <tr>
+                    <td style=" text-align: right ;"> ngày giờ nhập học</td>
+                    <td><input type="datetime-local"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; "> lương </td> 
+                <td width = 200>
+                0 đ <input type = range name = 'rgSalary'
+                step = 50000 min = 0 max = 20000000 value = 5000000> 20,000,000 đ</td>
+                     </tr>
+     <tr>
+         <td style="text-align: right;"> sở thích </td>
+         <td><table>
+            <tr>
+               <td> <input type="checkbox" value="tiền"> tiền</td>
+               <td> <input type="checkbox" value="game"> game</td>
+            </tr>
+            <tr>
+                <td> <input type="checkbox" value="ăn"> ăn</td>
+                <td> <input type="checkbox" value="ngủ"> ngủ</td>
+             </tr>
+
+         </table></td>
+     </tr>
+     <tr>
+        <td style=" text-align: right ;"> sdt </td>
+        <td><input type="tel" pattern="[0]{1} [0-9]{10}"> </td>
+    </tr> 
+    <tr>
+        <td style="text-align: right;">mật khẩu</td>
+        <td><input type="password" name="mk"></td>
+    </tr>
+    <tr>
+        <td style="text-align: right;"> nhập lại mật khẩu</td>
+        <td><input type="password" name="rmk"></td>
+    </tr>
+    <tr>
+        
+    </tr>
+        </table>
+        <br><input style="margin-left:90px"  type="submit" value="gửi"><input type="submit" value=" nhập lại">
+        </form>
+    </body>
+</html>
